@@ -15,7 +15,7 @@ public class DominoPile {
         int bottom = 0;
         for(int i = 0; i <= 6; i++){
 
-            for(int ii = 0; i <= 6; i++){
+            for(int ii = top; ii <= 6; ii++){
                 Domino domino = new Domino();
 
                 domino.setTop(top);
